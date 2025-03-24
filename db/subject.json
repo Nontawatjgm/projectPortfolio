@@ -1,0 +1,188 @@
+{
+  "subject": [
+    {
+      "id": "0135510",
+      "name": "English for University Life",
+      "credit": 3,
+      "grade": "B+",
+      "yr": 1,
+      "semester": 1
+    },
+    {
+      "id": "01417111",
+      "name": "Calculus I",
+      "credit": 3,
+      "grade": "C+",
+      "yr": 1,
+      "semester": 1
+    },
+    {
+      "id": "01418111",
+      "name": "Introduction to Computer Science",
+      "credit": 3,
+      "grade": "B",
+      "yr": 1,
+      "semester": 1
+    },
+    {
+      "id": "01418112",
+      "name": "Fundamental Programming Concepts",
+      "credit": 2,
+      "grade": "C+",
+      "yr": 1,
+      "semester": 1
+    },
+    {
+      "id": "01418141",
+      "name": "Intellectual Properties and Professional Ethics",
+      "credit": 3,
+      "grade": "C+",
+      "yr": 1,
+      "semester": 1
+    },
+    {
+      "id": "01999021",
+      "name": "Thai Language for Communication",
+      "credit": 3,
+      "grade": "B+",
+      "yr": 1,
+      "semester": 1
+    },
+    {
+      "id": "01999111",
+      "name": "Knowledge of the Land",
+      "credit": 2,
+      "grade": "A",
+      "yr": 1,
+      "semester": 1
+    },
+    {
+      "id": "01355102",
+      "name": "Life Skill for Undergraduate Student",
+      "credit": 1,
+      "grade": "A",
+      "yr": 1,
+      "semester": 1
+    },
+    {
+      "id": "03600014",
+      "name": "Creative Problem Solving and Critical Thinking Skills",
+      "credit": 3,
+      "grade": "A",
+      "yr": 1,
+      "semester": 2
+    },
+    {
+      "id": "03600012",
+      "name": "Green Technology",
+      "credit": 3,
+      "grade": "B",
+      "yr": 1,
+      "semester": 2
+    },
+    {
+      "id": "01417322",
+      "name": "Basic Linear Algebra",
+      "credit": 3,
+      "grade": "C",
+      "yr": 1,
+      "semester": 2
+    },
+    {
+      "id": "01418113",
+      "name": "Computer Programming",
+      "credit": 3,
+      "grade": "B+",
+      "yr": 1,
+      "semester": 2
+    },
+    {
+      "id": "01418131",
+      "name": "Statistical Programming",
+      "credit": 3,
+      "grade": "B",
+      "yr": 1,
+      "semester": 2
+    },
+    {
+      "id": "01418132",
+      "name": "Fundamentals of Computing",
+      "credit": 3,
+      "grade": "C+",
+      "yr": 1,
+      "semester": 2
+    },
+    {
+      "id": "01175114",
+      "name": "Table Tennis for Health",
+      "credit": 1,
+      "grade": "A",
+      "yr": 1,
+      "semester": 2
+    },
+    {
+      "id": "03654114",
+      "name": "Mobile Applications for Modern Life",
+      "credit": 3,
+      "grade": "A",
+      "yr": 2,
+      "semester": 1
+    },
+    {
+      "id": "01418101",
+      "name": "Computer Applications",
+      "credit": 1,
+      "grade": "A",
+      "yr": 2,
+      "semester": 1
+    },
+    {
+      "id": "01418211",
+      "name": "Software Construction",
+      "credit": 3,
+      "grade": "C+",
+      "yr": 2,
+      "semester": 1
+    },
+    {
+      "id": "01418231",
+      "name": "Data Structures and Algorithms",
+      "credit": 3,
+      "grade": "B+",
+      "yr": 2,
+      "semester": 1
+    },
+    {
+      "id": "01418233",
+      "name": "Computer Architecture",
+      "credit": 3,
+      "grade": "B",
+      "yr": 2,
+      "semester": 1
+    },
+    {
+      "id": "01418323",
+      "name": "Introduction to Data Science",
+      "credit": 3,
+      "grade": "B",
+      "yr": 2,
+      "semester": 1
+    },
+    {
+      "id": "01174231",
+      "name": "Introduction to Recreation",
+      "credit": 3,
+      "grade": "A",
+      "yr": 2,
+      "semester": 1
+    },
+    {
+      "id": "03654114",
+      "name": "Mobile Applications for Modern Life",
+      "credit": 3,
+      "grade": "A",
+      "yr": 2,
+      "semester": 2
+    }
+  ]
+}
