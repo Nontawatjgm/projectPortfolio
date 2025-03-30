@@ -1,18 +1,21 @@
 <template>
     <div class="card my-2">
         <div class="card-body bg-success bg-opacity-25">
-            <h5 class="card-title">รหัสวิชา {{ subject.id }}</h5>
-            <div class="card-sub-title">วิชา {{ subject.name }}</div>
-            <div class="card-sub-title">ปี {{ subject.yr }} เทอม{{ subject.semester}}</div>
-            <div class="cart-text">หน่วยกิต {{ subject.credit }} เกรด {{ subject.grade }}</div>
+            <h5 class="card-title">{{ subject.id }} {{ subject.name }}</h5>
+            <div class="card-sub-title">{{ subject.credit }} หน่วยกิต</div>
+            <div class="cart-text">เกรด {{ subject.grade }}</div>
         </div>
     </div>
-    <button class="btn btn-danger" @click="delDetail(subjId)">ลบข้อมูล</button>
+
+    <div class="btn-group">
+        <button class="btn btn-danger" @click="delDetail(subjId)">ลบข้อมูล</button>
     <div v-if="isDeleted" class="alert alert-success mt-2" role="alert">
         ข้อมูลถูกลบเรียบร้อยแล้ว!
     </div>
     <div v-if="deleteError" class="alert alert-danger mt-2" role="alert">
         เกิดข้อผิดพลาดในการลบข้อมูล!
+    </div>
+    <button class="btn btn-warning me-2" @click="editDetail(subjId)">แก้ไข</button>
     </div>
 </template>
 

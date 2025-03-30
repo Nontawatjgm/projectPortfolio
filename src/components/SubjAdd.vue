@@ -57,7 +57,7 @@
       </div>
     </div>
     <div class="alert alert-success mt-2" v-show="addSuccess">
-      บันทึกข้อมูล {{ subjs.id }} - {{ subjs.name }} สำเร็จ
+      บันทึกข้อมูลสำเร็จ
     </div>
     <div class="alert alert-danger mt-2" v-show="addError">
       {{ errMessage }}
@@ -86,6 +86,32 @@
       methods: {
         // Method ที่ทำงานเมื่อมีการ Submit
         handleSubmit() {
+             // ตรวจสอบว่า `id` ไม่ว่าง
+            if (!this.subjs.id.trim()) {
+            this.addError = true
+            this.errMessage = "กรุณากรอกรหัสวิชา"
+            return
+            }
+
+            // ตรวจสอบว่า `name` ไม่ว่าง
+            if (!this.subjs.name.trim()) {
+            this.addError = true
+            this.errMessage = "กรุณากรอกชื่อรายวิชา"
+            return
+            }
+            // ตรวจสอบว่า `credit` ไม่ว่าง
+            if (!this.subjs.credit.trim()) {
+            this.addError = true
+            this.errMessage = "กรุณากรอกจำนวนหน่วยกิจ"
+            return
+            }
+            // ตรวจสอบว่า `grade` ไม่ว่าง
+            if (!this.subjs.grade.trim()) {
+            this.addError = true
+            this.errMessage = "กรุณากรอกผลการเรียน"
+            return
+            }
+
             // สร้าง Object เพื่อเตรียมส่งข้อมูล - ค่า properties ที่ v-model กับ form ไว้
             let subject = {
                 id: this.subjs.id,
@@ -119,8 +145,8 @@
                 name: "",
                 credit: "",
                 grade: "",
-                yr: 2,
-                semester: 2,
+                yr: "",
+                semester: "",
                 isShow: false
             }
         }
@@ -129,6 +155,6 @@
   </script>
   
   <style>
-  /* เพิ่มสไตล์ถ้าต้องการ */
+  
   </style>
   
